@@ -45,6 +45,7 @@ a {
 }
 .prettystuff  {
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 1200px;
   margin: 0 auto 78px auto;
@@ -64,4 +65,55 @@ a {
   text-align: center;
   background-color: black;
   width: 1200px;
+}
+
+.ToM  {
+  display: block;
+  flex-direction: row;
+  /*align-items: center;*/
+  justify-content: center;/*new*/
+  width: 1000px;
+}
+
+.featuredtea  {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  width: 1000px;
+  border-color: white;
+}
+
+.imagesmall  {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+  padding: 0px;
+  margin: 10px;
+}
+
+.ToMimages  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  border-width: 0px;
+}
+
+.teaholder  {
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  margin: 5px;
+  border-width: 0px;
+}
+
+.teatitle  {
+text-align: center;
+
 }
